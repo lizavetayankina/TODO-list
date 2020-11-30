@@ -1,0 +1,58 @@
+body { /*background-image: url('/assets/img/todo-list.png');*/
+background-image: url(https://media.istockphoto.com/vectors/todo-list-seamless-pattern-universal-background-vector-id509927696?k=6&m=509927696&s=170667a&w=0&h=5S8hmkgmbKi3fFdwjfGmtoLyPsAn3SJEgjbEeVmI_2w=);
+}
+
+
+.todo h1 {text-align: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+    color: #ffffff;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.2),
+                 0px 18px 23px rgba(0,0,0,0.2);    
+    }
+
+    
+.container { width: 900px;
+background-color: rgb(117, 187,253);}
+
+.tabs{margin-top: 80px;}
+
+
+form {display: none;
+padding: 50px 0 0; }
+
+/*form.show {display: block;}*/
+input.error {border-color: rgb(255, 0, 0);
+border: 8px, solid;
+border-radius: 8px;}
+
+.form-button {display: flex;
+position: relative;
+right: 15px;
+min-width: 900px;}
+
+.btn.addTask{padding:10px;}
+
+.form-control {margin: 10px 0 10px;}
+
+.task, .task-done-js, .task-delete-js  {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding-top: 10px;
+    align-items: center;
+    margin: auto}
+
+
+.open-form.close {margin: 40px 5px 5px; }
+.close i {padding: 0 5px;
+color: rgb(117, 187,253);;}
+.close i::before { color: whitesmoke;}
+ 
+.task-name , .task-description,
+.task-status,
+.task-status,
+.button-tasks {width: 33.33%;}
